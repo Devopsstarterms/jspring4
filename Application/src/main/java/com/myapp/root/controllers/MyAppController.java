@@ -11,8 +11,4 @@ public class MyAppController {
         return "index.html";
     }
     
-    @RequestMapping("/test")
-    public String test() {
-        return "test.html";
-    }
 }
